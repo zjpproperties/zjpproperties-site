@@ -18,7 +18,7 @@
 *{box-sizing:border-box}
 html,body{margin:0}
 body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.55}
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block}
 a{color:inherit}
 h1,h2,h3{font-family:var(--display);line-height:1.08;margin:0;text-wrap:balance}
 h1{font-size:clamp(2.3rem,5.4vw,4rem);font-weight:800;letter-spacing:-.02em}
@@ -221,3 +221,5 @@ dialog.lightbox button{background:#fff;color:var(--ink);border:0;border-radius:9
   .links a:not(.btn){padding:14px 0;border-bottom:1px solid var(--line);font-size:1.1rem}
   .links .btn{margin-top:14px}
 }
+
+.h1-kicker{display:block;font-family:var(--body)}
