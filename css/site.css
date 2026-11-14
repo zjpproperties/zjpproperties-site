@@ -135,6 +135,8 @@ blockquote footer{font-size:.9rem;color:var(--muted);font-weight:600}
 .site-foot h4{color:#fff;font-family:var(--display);font-size:1.05rem;margin:0 0 10px}
 .site-foot ul{list-style:none;padding:0;margin:0}
 .site-foot li{margin:4px 0}
+.foot-social{margin-top:10px}
+.site-foot a{color:#fff}
 .fine{margin-top:32px;padding-top:20px;border-top:1px solid #2d4152;font-size:.85rem}
 @media (max-width:760px){.foot-grid{grid-template-columns:1fr}}
 
