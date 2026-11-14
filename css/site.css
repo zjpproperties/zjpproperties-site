@@ -223,3 +223,8 @@ dialog.lightbox button{background:#fff;color:var(--ink);border:0;border-radius:9
 }
 
 .h1-kicker{display:block;font-family:var(--body)}
+.guide h2{margin:40px 0 10px}
+.guide h3{margin:24px 0 6px}
+.guide ul{padding-left:20px;max-width:62ch}
+.guide li{margin:8px 0}
+.guide .btn{margin-top:6px}
