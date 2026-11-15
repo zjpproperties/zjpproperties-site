@@ -234,3 +234,11 @@ dialog.lightbox button{background:#fff;color:var(--ink);border:0;border-radius:9
 @media (max-width:480px){.brand img{height:46px}}
 .foot-logo{display:inline-block;background:#fff;border-radius:12px;padding:10px 14px;margin-bottom:12px}
 .foot-logo img{height:48px;width:auto;display:block}
+
+/* Mobile: book button near the top of property pages */
+.mobile-book{display:none}
+@media (max-width:900px){
+  .mobile-book{display:block;margin:0 0 20px;text-align:center}
+  .mobile-book .btn{width:100%}
+  .mobile-book small{display:block;color:var(--muted);margin-top:8px;font-size:.88rem}
+}
