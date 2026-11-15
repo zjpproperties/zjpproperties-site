@@ -228,3 +228,10 @@ dialog.lightbox button{background:#fff;color:var(--ink);border:0;border-radius:9
 .guide ul{padding-left:20px;max-width:62ch}
 .guide li{margin:8px 0}
 .guide .btn{margin-top:6px}
+
+/* camera-sunrise logo + wordmark (Nov 2026) */
+.brand img{height:46px;width:auto}
+.brand .wm{display:flex;flex-direction:column;line-height:1;color:#2f2f2f}
+.brand .wm b{font-family:Fredoka,var(--display);font-weight:700;font-size:30px;letter-spacing:-.01em}
+.brand .wm i{font-style:normal;font-family:Nunito,var(--body);font-weight:900;font-size:11px;letter-spacing:.24em;text-transform:uppercase;margin-top:2px}
+@media (max-width:480px){.brand .wm{display:flex}}
