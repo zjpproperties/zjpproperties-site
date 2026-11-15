@@ -195,8 +195,8 @@ dialog.lightbox button{background:#fff;color:var(--ink);border:0;border-radius:9
 .faq details > div{padding:0 20px 18px;color:#2c3a46}
 .faq details > div p + p{margin-top:10px}
 .links a[aria-current="page"]{text-decoration:underline;text-underline-offset:5px}
-.gallery.g4 button:last-child{grid-column:span 2}
-@media (max-width:760px){.gallery.g4 button:last-child{grid-column:auto}}
+.gallery.g4 button:nth-child(4){grid-column:span 2}
+@media (max-width:760px){.gallery.g4 button:nth-child(4){grid-column:span 2}}
 .booking{scroll-margin-top:90px}
 .booking-note{color:var(--muted);max-width:62ch;margin-bottom:18px}
 .widget-wrap{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:12px;min-height:120px}
@@ -242,3 +242,9 @@ dialog.lightbox button{background:#fff;color:var(--ink);border:0;border-radius:9
   .mobile-book .btn{width:100%}
   .mobile-book small{display:block;color:var(--muted);margin-top:8px;font-size:.88rem}
 }
+
+/* Extra gallery photos open in the viewer only */
+.gallery-wrap{position:relative}
+.gallery .more{display:none!important}
+.all-photos{position:absolute;right:14px;bottom:14px;background:#fff;color:var(--ink,#262b30);border:1px solid var(--line);border-radius:999px;padding:8px 16px;font:inherit;font-weight:700;font-size:.92rem;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.15)}
+.all-photos:hover{background:#f3f5f6}

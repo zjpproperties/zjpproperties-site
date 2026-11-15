@@ -19,6 +19,8 @@
   buttons.forEach(function (b, i) {
     b.addEventListener('click', function () { show(i); box.showModal(); });
   });
+  var all = document.querySelector('[data-all-photos]');
+  if (all) all.addEventListener('click', function () { show(0); box.showModal(); });
   box.querySelector('[data-prev]').addEventListener('click', function () { show(current - 1); });
   box.querySelector('[data-next]').addEventListener('click', function () { show(current + 1); });
   box.querySelector('[data-close]').addEventListener('click', function () { box.close(); });
